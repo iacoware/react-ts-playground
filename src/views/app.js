@@ -1,7 +1,7 @@
 import React from "react"
 
-const App = () => {
-  return <h1>Hello World!</h1>
+const App = props => {
+    return <h1>Hello {props.name}!</h1>
 }
 
 export default App
