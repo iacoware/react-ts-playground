@@ -1,6 +1,6 @@
 import React from "react"
 
-const App = props => {
+const App = (props) => {
     return <h1>Hello {props.name}!</h1>
 }
 
