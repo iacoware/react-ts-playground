@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        /* 
+        Removed as they interferes with standard Node module resolution.
+        See https://www.typescriptlang.org/docs/handbook/module-resolution.html
+        Left as a reference for future temptations... :-)
+        "baseUrl": "./src",
+        "paths": {
+            "~*": ["./*"]
+        },
+        */
+        "allowJs": true,
+        //"sourceMap": true, // allow sourcemap support
+        "module": "es6", // specifiy module code generation
+        "moduleResolution": "Node", // specify to resolve modules in node style
+        "jsx": "react", // use typescript to transpile jsx to js
+        "skipLibCheck": true,
+        //        "strict": true,
+        // "strictNullChecks": true,
+        "strictNullChecks": false, // enable strict null checks as a best practice
+        "noImplicitAny": false, // disallow implicit any type
+        "esModuleInterop": true,
+        "target": "ES2019",
+        "outDir": "build"
+    },
+    "include": ["./src/**/*"]
+}
