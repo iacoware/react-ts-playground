@@ -5,7 +5,7 @@
     "repository": {
         "url": "https://github.com/iacoware/react-playground"
     },
-    "main": "src/index.js",
+    "main": "src/index.tsx",
     "scripts": {
         "clean": "rimraf dist .cache node_modules/.cache/",
         "start": "npm run clean && parcel index.html --no-autoinstall --open",
@@ -20,6 +20,8 @@
         "react-dom": "17.0.1"
     },
     "devDependencies": {
+        "@types/react": "17.0.0",
+        "@types/react-dom": "17.0.0",
         "eslint": "7.15.0",
         "eslint-config-prettier": "7.0.0",
         "eslint-plugin-prettier": "3.2.0",
